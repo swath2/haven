@@ -10,25 +10,28 @@ Návod
 
 ## Nastavení
 
-- Nainstalovat Laragon, nejlíp do složky třeba C:\Laragon
-- Nainstalovat Git a GitHub Desktop
-- Otevřít GitHub Desktop, přihlásit se pod svým účtem
-- Vytvořit si GitHub účet na webu a přihlásit se
-- Otevřít tenhle repozitář v prohlížeči: https://github.com/VanNiewelt/haven
-- Kliknout na tlačítko "fork"
-- Kliknout na "clone in Desktop". Měla by se otevřít aplikace GitHub Desktop.
-- Vybrat, kam naklonovat repozitář; nejlíp do složky C:\Laragon\www. Vytvoří se vám tam podsložka "haven"
 
-- Nainstalovat a spustit PhpStorm
-- Kliknout "File" > "Create new project from existing files"
-- Vybrat první možnost "Web server is installed locally, source files are located under its document root"
-- V dalším kroku najít složku, ve který je naklonovaný projekt, tj. "C:\Laragon\www\haven". Vybrat složku a kliknout na "project root", tím se nastaví jako kořenová složka projektu
-- V dalším kroku nastavit "Name" třeba na "Haven" a "Web server root URL" "nechat na http://localhost/" (bez uvozovek, Matěji)
-- V dalším kroku nastavit "Web path" na "haven/public" (taky bez uvozovek)
+1. Nainstalovat Laragon, nejlíp do složky třeba C:\Laragon
+1. Nainstalovat Git a GitHub Desktop
+1. Otevřít GitHub Desktop, přihlásit se pod svým účtem
+1. Vytvořit si GitHub účet na webu a přihlásit se
+1. Otevřít tenhle repozitář v prohlížeči: https://github.com/VanNiewelt/haven
+1. Kliknout na tlačítko "fork"
+1. Kliknout na "clone in Desktop". Měla by se otevřít aplikace GitHub Desktop.
+1. Vybrat, kam naklonovat repozitář; nejlíp do složky C:\Laragon\www. Vytvoří se vám tam podsložka "haven"
 
-- Spustit Laragon
-- Kliknout na tlačítko "start" vlevo dole. Aplikace by se měla zeptat na autorský práva, tak jí to povolte.
-- Když pak otevřete v prohlížeči adresu "haven.dev", tak by se měla otevřít stránka s nápisem "Laravel 5". Pokud ne, zkuste adresu "localhost/haven/public"
+
+1. Nainstalovat a spustit PhpStorm
+1. Kliknout "File" > "Create new project from existing files"
+1. Vybrat první možnost "Web server is installed locally, source files are located under its document root"
+1. V dalším kroku najít složku, ve který je naklonovaný projekt, tj. "C:\Laragon\www\haven". Vybrat složku a kliknout na "project root", tím se nastaví jako kořenová složka projektu
+1. V dalším kroku nastavit "Name" třeba na "Haven" a "Web server root URL" "nechat na http://localhost/" (bez uvozovek, Matěji)
+1. V dalším kroku nastavit "Web path" na "haven/public" (taky bez uvozovek)
+
+
+1. Spustit Laragon
+1. Kliknout na tlačítko "start" vlevo dole. Aplikace by se měla zeptat na autorský práva, tak jí to povolte.
+1. Když pak otevřete v prohlížeči adresu "haven.dev", tak by se měla otevřít stránka s nápisem "Laravel 5". Pokud ne, zkuste adresu "localhost/haven/public"
 
 ### Dodatečné nastavení PhpStormu:
 
