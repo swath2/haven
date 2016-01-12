@@ -3,6 +3,7 @@ Návod
 
 ## Programy k instalaci
 
+* Composer (https://getcomposer.org/doc/00-intro.md#installation-windows -- stáhnout Composer-Setup.exe a nainstalovat)
 * Laragon (https://laragon.org/)
 * Git (https://git-scm.com/downloads)
 * GitHub Desktop (https://desktop.github.com/)
@@ -10,17 +11,16 @@ Návod
 
 ## Nastavení
 
-
+### Git + GitHub
 1. Nainstalovat Laragon, nejlíp do složky třeba C:\Laragon
 1. Nainstalovat Git a GitHub Desktop
-1. Otevřít GitHub Desktop, přihlásit se pod svým účtem
 1. Vytvořit si GitHub účet na webu a přihlásit se
-1. Otevřít tenhle repozitář v prohlížeči: https://github.com/VanNiewelt/haven
-1. Kliknout na tlačítko "fork"
+1. Otevřít GitHub Desktop, přihlásit se pod svým účtem
+1. Kliknout na tlačítko "fork" u tohohle repozitáře.
 1. Kliknout na "clone in Desktop". Měla by se otevřít aplikace GitHub Desktop.
-1. Vybrat, kam naklonovat repozitář; nejlíp do složky C:\Laragon\www. Vytvoří se vám tam podsložka "haven"
+1. Vybrat, kam naklonovat repozitář; nejlíp do složky C:\Laragon\www. Vytvoří se tam podsložka "haven"
 
-
+### PhpStorm
 1. Nainstalovat a spustit PhpStorm
 1. Kliknout "File" > "Create new project from existing files"
 1. Vybrat první možnost "Web server is installed locally, source files are located under its document root"
@@ -28,7 +28,7 @@ Návod
 1. V dalším kroku nastavit "Name" třeba na "Haven" a "Web server root URL" "nechat na http://localhost/" (bez uvozovek, Matěji)
 1. V dalším kroku nastavit "Web path" na "haven/public" (taky bez uvozovek)
 
-
+### Laragon
 1. Spustit Laragon
 1. Kliknout na tlačítko "start" vlevo dole. Aplikace by se měla zeptat na autorský práva, tak jí to povolte.
 1. Když pak otevřete v prohlížeči adresu "haven.dev", tak by se měla otevřít stránka s nápisem "Laravel 5". Pokud ne, zkuste adresu "localhost/haven/public"
