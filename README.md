@@ -1,27 +1,44 @@
-## Laravel PHP Framework
+# Haven
+Návod
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Programy k instalaci
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+* Laragon (https://laragon.org/)
+* Git (https://git-scm.com/downloads)
+* GitHub Desktop (https://desktop.github.com/)
+* PhpStorm (https://www.jetbrains.com/phpstorm/)
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Nastavení
 
-## Official Documentation
+- Nainstalovat Laragon, nejlíp do složky třeba C:\Laragon
+- Nainstalovat Git a GitHub Desktop
+- Otevřít GitHub Desktop, přihlásit se pod svým účtem
+- Vytvořit si GitHub účet na webu a přihlásit se
+- Otevřít tenhle repozitář v prohlížeči: https://github.com/VanNiewelt/haven
+- Kliknout na tlačítko "fork"
+- Kliknout na "clone in Desktop". Měla by se otevřít aplikace GitHub Desktop.
+- Vybrat, kam naklonovat repozitář; nejlíp do složky C:\Laragon\www. Vytvoří se vám tam podsložka "haven"
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+- Nainstalovat a spustit PhpStorm
+- Kliknout "File" > "Create new project from existing files"
+- Vybrat první možnost "Web server is installed locally, source files are located under its document root"
+- V dalším kroku najít složku, ve který je naklonovaný projekt, tj. "C:\Laragon\www\haven". Vybrat složku a kliknout na "project root", tím se nastaví jako kořenová složka projektu
+- V dalším kroku nastavit "Name" třeba na "Haven" a "Web server root URL" "nechat na http://localhost/" (bez uvozovek, Matěji)
+- V dalším kroku nastavit "Web path" na "haven/public" (taky bez uvozovek)
 
-## Contributing
+- Spustit Laragon
+- Kliknout na tlačítko "start" vlevo dole. Aplikace by se měla zeptat na autorský práva, tak jí to povolte.
+- Když pak otevřete v prohlížeči adresu "haven.dev", tak by se měla otevřít stránka s nápisem "Laravel 5". Pokud ne, zkuste adresu "localhost/haven/public"
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+### Dodatečné nastavení PhpStormu:
 
-## Security Vulnerabilities
+#### Nastavení AltGr
+Ve výchozím nastavení v něm nefungují klávesové zkratky s pravým altem jako ve zkurveném atomu, takže je třeba upravit nastavení, aby to šlo.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+- Otevřít nějaký textový edior s administrátorskými právy, třeba poznámkový blok (kliknout pravým tlačítkem a vybrat "spustit jako správce")
+- Otevřít soubor "C:\Program Files (x86)\JetBrains\PhpStorm (vaše verze)\bin\idea.properties"
+- Přidat nakonec souboru řádek "actionSystem.force.alt.gr=true"
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+#### Nastavení Laravelu pro PhpStorm
+Nastavení doplňků pro zvýrazňování syntaxe atd.
+http://blog.jetbrains.com/phpstorm/2015/01/laravel-development-using-phpstorm/
