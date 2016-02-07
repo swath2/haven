@@ -2,24 +2,10 @@
 <project version="4">
   <component name="PublishConfigData" serverName="Haven">
     <serverData>
-      <paths name="Deploy">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="Haven">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/haven/public" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Test">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="haven/public" />
           </mappings>
         </serverdata>
       </paths>

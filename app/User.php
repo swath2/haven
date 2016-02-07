@@ -12,15 +12,30 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+
+        'first_name',
+        'last_name',
+        'location_country',
+        'location_region',
+        'email',
+        'company',
+        'description',
+        'profile_picture',
     ];
 
-    /**
-     * The attributes excluded from the model's JSON form.
-     *
-     * @var array
-     */
     protected $hidden = [
-        'password', 'remember_token',
+        'password','remember_token',
     ];
+
+    public function team(){
+        return $this -> belongsToMany('App/Team');
+    }
+
+    public function project(){
+        return $this->hasMany('App/Project');
+    }
+
+    public function comment(){
+        return $this->hasMany('App/Comment');
+    }
 }
